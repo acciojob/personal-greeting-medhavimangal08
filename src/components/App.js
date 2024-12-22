@@ -13,7 +13,7 @@ const App = () => {
       <label>Enter your name:</label>
       <br />
       <input type="text" onChange={setword} />
-      <p>{text.length > 1 ? `Hello ${text}!` : ""}</p>
+      <p>{text.length >= 1 ? `Hello ${text}!` : ""}</p>
     </div>
   );
 };
